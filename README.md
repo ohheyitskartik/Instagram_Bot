@@ -41,7 +41,7 @@ Right click on ThisPC in file explorer and go to properties > Advanced System Se
 
 Under system variable click on Path and Add a new entry to paths and input chrome driver's folder directory Address into the box.
 
-#### All Set
+#### You are All Set !!
 
 ## Getting started with Bot Code
 
@@ -95,6 +95,14 @@ and add the itration variable where the value changes between user to user in th
 //div/li["+itration_val+"]/div
 
 ```
+If you want to close the browser window when the script finshes you can uncomment the following line at the bottom of code :-
+
+```
+browser.close()
+
+```
+i personally prefer to keep the window open after the script is done hence this part is commented
+
 #### Save the file..
 
 ## Using the Bot -
